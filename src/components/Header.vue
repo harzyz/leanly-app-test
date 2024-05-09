@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue';
 
 let userName = ref<string>(JSON.parse(localStorage.getItem('user') || 'Anonymous User')); 
 
