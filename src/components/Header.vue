@@ -1,7 +1,7 @@
 <template>
   <section class="">
     <h1 v-if="userName !== ''" class="welcome_text">Welcome! <span style="color: #6aa3ff;">{{ userName }}</span></h1>
-    <h1 v-if="userName === ''" class="welcome_text">Welcome! <span style="color: #6aa3ff;">Anonymous User</span></h1>
+    <h1 v-if="userName === ''" class="welcome_text">Welcome! <span style="color: #6aa3ff;">User X</span></h1>
   </section>
 </template>
 
