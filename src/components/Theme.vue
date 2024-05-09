@@ -19,7 +19,7 @@ const changeTheme = (): void => {
 <style lang="scss" scoped>
 .theme {
   position: fixed;
-  top: 15px;
+  top: 20px;
   right: 15px;
   cursor: pointer;
 }

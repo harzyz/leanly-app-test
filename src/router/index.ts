@@ -5,11 +5,6 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "welcome",
-      component: () => import("../pages/WelcomePage.vue"),
-    },
-    {
-      path: "/dashboard",
       name: "home",
       component: () => import("../pages/HomePage.vue"),
     }
