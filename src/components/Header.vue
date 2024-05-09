@@ -22,15 +22,15 @@ section {
 }
 .welcome_text{
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 700px){
   section{
     padding: 0 25px;
   }
   .welcome_text{
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
 }
 }
 </style>

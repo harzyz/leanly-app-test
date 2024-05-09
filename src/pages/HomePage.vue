@@ -212,6 +212,7 @@ ul {
 @media screen and (max-width: 700px) {
   .task_wrapper {
     flex-direction: column;
+    gap: 20px;
     width: 100%;
     height: 100%;
     padding: 25px;
