@@ -1,7 +1,7 @@
 <template>
   <footer class="wrapper">
     {{ currentYear }} &copy; 
-    <a href="" class="text-decoration-none">Abdul-Azeez</a>
+    <p class="text-decoration-none">Abdul-Azeez</p>
   </footer>
 </template>
 
@@ -20,5 +20,8 @@ const currentYear = ref(new Date().getFullYear());
     align-items: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .wrapper p{
+    margin: 0
   }
 </style>

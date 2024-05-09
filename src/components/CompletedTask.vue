@@ -23,10 +23,10 @@
       
       <Modal :isOpen="deleteModal" @close="closeDeleteModal">
         <div class="modal_wrap">
-          <h4>Are you sure you want to delete Task?</h4>
+          <h4>Delete Task?</h4>
           <div class="modal_actions">
             <button @click="deleteTask(task.id)" class='btn btn-danger'>Yes</button>
-            <button @click="closeDeleteModal" class='btn btn-info'>Cancel</button>
+            <button @click="closeDeleteModal" class='btn btn-dark'>Cancel</button>
           </div>
         </div>
       </Modal>

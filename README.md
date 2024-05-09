@@ -20,6 +20,7 @@ GENERAL FEATURES
 - Utilize modal pop-ups to confirm actions like deleting a task, reducing the risk of accidental deletions.
 
 - **Task Management**
+
 1- View a List of Tasks: Easily browse and manage your tasks in a user-friendly interface.
 
 2- Add a New Task: Quickly add new tasks to the list, providing a seamless way to keep track of your to-dos.
