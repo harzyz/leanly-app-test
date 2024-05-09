@@ -149,7 +149,7 @@ watch(theme, (newTheme: string) => {
 }
 
 .inner_container {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
 }
 .task_wrapper {
   height: 100%;
@@ -218,7 +218,7 @@ ul {
   }
   .inner_container {
     height: 100%;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 120px);
   }
   .completed_lg {
     display: none;

@@ -13,16 +13,10 @@ let userName = ref<string>(JSON.parse(localStorage.getItem('user') || 'Anonymous
 </script>
 
 <style lang="scss" scoped>
-img {
-  width: 50px;
-  height: auto;
-}
-
 section {
   width: 100%;
   padding: 0 50px;
-  // border-bottom: 1px dotted;
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center
 }
